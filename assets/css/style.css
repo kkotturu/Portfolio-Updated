@@ -1,0 +1,188 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("../images/background.jpg");
+}
+
+.content{
+    background-color: rgba(255, 255, 255,.8);
+    height: fit-content;
+    width: fit-content;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 0 auto;
+}
+
+#topTitle{
+    font-size: 32px;
+    cursor: pointer;
+}
+.dropdownItems{
+    background-color: white ;
+    
+}
+.dropdownItems:hover{
+    background-color: rgb(205, 205, 205);
+}
+/* Intro styling */
+#intro-headText, #about-headText, #portfolio-headText{
+    margin-top: 20px;
+    padding-top: 2px;
+    font-size: 32px;
+    color:#c51162;
+}
+#intro-text{
+    font-size: 24px;
+    line-height: 1.5;
+    padding-bottom: 5%;
+    color: #c51162;
+}
+
+/* About styling */
+#about-text{
+    font-size: 24px;
+    line-height: 1.25;
+    padding-bottom: 5%;
+    color:#c51162;
+}
+
+/* contact styling */
+#contact-headText{
+    margin-top: 20px;
+    padding-top: 2%;
+    font-size: 32px;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    color:#c51162;
+}
+.contact-text{
+    font-size: 24px;
+    line-height: 1.25;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.iconImage{
+    margin-top: 5%;
+    width: 160px;
+    height: 160px;
+    padding-bottom: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    cursor: pointer;
+}
+
+.card{
+    width: 90%;
+    border-radius: 50px;
+    color:#c51162;
+}
+.card .card-content{
+    padding: 15px;
+    color:#c51162;
+}
+
+.card-image{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color:#c51162;
+}
+.row .col{
+    padding: 0;
+}
+
+.card .card-image .card-title {
+    position: absolute;
+    right: 0;
+    margin: auto;
+    font-size:18px;
+}
+
+.card-title{
+    padding:50px;
+    color: white;
+}
+
+.card-textcontent{
+    font-size: 16px;
+}
+
+p{
+   font-size:16px;
+   margin-top: 15px; 
+   margin-bottom: 5px;
+}
+
+a{
+    font-size:24px;
+    padding:10px;
+}
+
+img{
+    width:200px;
+    height:200px;
+}
+
+/* media queries*/
+@media only screen and (max-width: 570px){
+    #portfolio-headText{
+        font-size: 4.5em;
+    }
+    #contact-headText{
+        font-size: 4.5em;
+    }
+    .contact-text{
+        font-size: 1.55em;
+    }
+    #about-text{
+        font-size: 1.55em;
+    }
+    #about-headText{
+        font-size: 4.5em;
+    }
+    #topTitle{
+        font-size: 1.5em;
+    }
+    #intro-headText{
+        font-size: 8.5em;
+    }
+    #intro-text{
+        font-size: 1.65em;
+    }
+    .ourImage{
+        width: 8.5em;
+        height: 8.5em;
+    }
+    
+}
+@media only screen and (max-width: 350px){
+    #portfolio-headText{
+        font-size: 4em;
+    }
+    #contact-headText{
+        font-size: 4em;
+    }
+    .contact-text{
+        font-size: 1.40em;
+    }
+    #topTitle{
+        font-size: 1.5em;
+    }
+    #intro-headText{
+        font-size: 8em;
+    }
+    #intro-text{
+        font-size: 1.5em;
+    }
+    #about-text{
+        font-size: 1.35em;
+    }
+    #about-headText{
+        font-size: 4em;
+    }
+    .ourImage{
+        width: 6.5em;
+        height: 6.5em;
+    }
+}
