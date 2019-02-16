@@ -1,3 +1,14 @@
+//Set the firebase configuration
+var config = {
+    apiKey: "AIzaSyDGL5mvdPz2ZnGc1Tv5E3IEQDThA-bWpHw",
+    authDomain: "portfolio-updated.firebaseapp.com",
+    databaseURL: "https://portfolio-updated.firebaseio.com",
+    projectId: "portfolio-updated",
+    storageBucket: "portfolio-updated.appspot.com",
+    messagingSenderId: "135206831082"
+};
+firebase.initializeApp(config);
+
 $(document).ready(function () {
     //functions for materialize
     $(".dropdown-trigger").dropdown({
@@ -32,24 +43,24 @@ $(document).ready(function () {
         let portfolioTitle = $("<p id='portfolio-headText'>Portfolio</p>");
         //make cards from materialize card
         let projcard1 = $(`<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'>
-        <img src='assets/images/Crystal_Collector.png'>Crystal Collector</div><div class='card-content'>
+        <img src='assets/images/Crystal_Collector.jpg'>Crystal Collector</div><div class='card-content'>
         <p class='card-textcontent'>A fun game created using jQuery, CSS and JavaScript.</p>
         </div><a href='https://kkotturu.github.io/unit-4-game.io/' target='_blank'>View Project</a>
         <p><a class='black-text' href='https://github.com/kkotturu/unit-4-game' target='_blank'>GitHub</a></p></div></div>`);
 
-        let projcard2 = $(`<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/Trivia.png'>Trivia</div>
+        let projcard2 = $(`<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/Trivia.jpg'>Trivia</div>
         <div class='card-content'><p class='card-textcontent'>A timed trivia question game created using JavaScript, timeout functions and CSS for design</p></div>
         <a href='https://kkotturu.github.io/TriviaGame.io/' target='_blank'>View Project</a><p><a class='black-text' href='https://github.com/kkotturu/TriviaGame' target='_blank'>GitHub</a></p></div></div>`);
 
-        let projcard3 = $(`<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/Gifhy.png'>GifTastic</div>
+        let projcard3 = $(`<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/Gifhy.jpg'>GifTastic</div>
         <div class='card-content'><p class='card-textcontent'>A web page using the GIPHY API to generate categories of buttons to generate gifs</p></div>
         <a href='https://kkotturu.github.io/GifTastic.io/' target='_blank'>View Project</a><p><a class='black-text' href='https://github.com/kkotturu/GifTastic' target='_blank'>GitHub</a></p></div></div>`);
 
-        let projcard4 = $(`<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/Train.png'>Train</div>
+        let projcard4 = $(`<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/Train.jpg'>Train</div>
         <div class='card-content'><p class='card-textcontent'>An activity created to know the arrival of next scheduled train using momemtjs</p></div>
         <a href='https://kkotturu.github.io/Train-Activity.io/' target='_blank'>View Project</a><p><a class='black-text' href='https://github.com/kkotturu/Train-Activity' target='_blank'>GitHub</a></p></div></div>`);
 
-        let projcard5 = $(`<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/Krave.png'>Krave</div>
+        let projcard5 = $(`<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/Krave.jpg'>Krave</div>
         <div class='card-content'><p class='card-textcontent'>App allows user to make decisions about whether to cook at home or to find food options outside the home.
         The app is created using APIs, CSS, jQuery, JavaScript.</p></div>
         <a href='https://krave-project1.firebaseapp.com/' target='_blank'>View Project</a><p><a class='black-text' href='https://github.com/kkotturu/Krave-Project1' target='_blank'>GitHub</a></p></div></div>`);
