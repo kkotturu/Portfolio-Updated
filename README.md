@@ -3,7 +3,7 @@ Homework #9
 This is an updated portfolio page for Kiranmai Kotturu.
 Click the menu icon to navigate through the website.
 
-URL: https://kkotturu.github.io/Portfolio-Updated.io
+URL: https://portfolio-updated.firebaseapp.com
 
 Made with:
 Materialize:
